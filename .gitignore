@@ -1,0 +1,17 @@
+# Terraform working directory and downloaded providers
+**/.terraform/
+
+# Terraform state may contain resource details and secrets
+*.tfstate
+*.tfstate.*
+
+# Local variable values commonly contain secrets
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Terraform crash logs
+crash.log
+crash.*.log
+day14/.ssh/
